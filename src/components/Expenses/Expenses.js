@@ -1,3 +1,4 @@
+import ExpensesFilter from '../ExpensesFilter/ExpensesFilter';
 import Card from '../UI/Card';
 import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
@@ -5,6 +6,7 @@ import './Expenses.css';
 function Expenses({ items }) {
   return (
     <Card className="expenses">
+       <ExpensesFilter />
       <ExpenseItem
         title={items[0].title}
         amount={items[0].amount}
