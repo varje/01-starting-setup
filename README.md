@@ -1,9 +1,18 @@
-Budget app
+# Budget app
 
-Practise project for Udemy Course: React - The Complete Guide
+Practise project for Udemy Course: React - The Complete Guide.
 
-Local run:
-* npm install
-* npm start
+## Functionality
+- Add expense
+- Filter by year
+- List expenses
+- Expenses graph per month
 
-Access through web-page: https://varje.github.io/01-starting-setup/
+
+## Local run:
+```bash
+npm install
+npm start
+```
+
+## Access through web-page: https://varje.github.io/react-budget-app/
